@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picaflor - Piña en almíbar</title>
+    <meta name="author" content="Isabella Andrea Alban Fernandez">
+    <meta name="description" content="Pagina Login">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="images/favicon-piña.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor navegacion-contenedor">
+            <div class="logo">
+                <a href="index.html"><img src="images/picaflorletras.png" alt="Picaflor Logo"></a>
+            </div>
+            
+            <nav id="navegacion-escritorio">
+                <ul>
+                    <li><a href="pide-en-linea.html" class="boton-navegacion">Pide en Línea</a></li>
+                    <li><a href="productos.html" class="boton-navegacion">Productos</a></li>
+                    <li><a href="sobrenosotros.html" class="boton-navegacion">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html" class="boton-navegacion">Contacto</a></li>
+                </ul>
+            </nav>
+    
+            <div class="acciones-usuario">
+                <a href="iniciarsesion.html"><i class="fas fa-user"></i> <span>Iniciar Sesión</span></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i> <span>Carrito</span></a>
+            </div>
+    
+            <div class="iconos-movil">
+                 <a href="#"><i class="fas fa-user"></i></a>
+                 <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <div class="menu-hamburguesa" id="menu-hamburguesa">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="navegacion-movil" id="navegacion-movil">
+            <a href="pide-en-linea.html">Pide en Línea</a>
+            <a href="productos.html">Productos</a>
+            <a href="sobrenosotros.html">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </header>
+
+<main>
+    <section class="portada portada-mi-cuenta">
+        <div class="portada-contenido">
+            <h1>MI CUENTA</h1>
+        </div>
+    </section>
+
+    <section class="seccion-cuenta">
+        <div class="formulario-contenedor">
+            <img src="images/picaflorletras.png" alt="Picaflor Logo" class="formulario-logo">
+            
+            <form>
+                <label for="login-usuario">USUARIO</label>
+                <input type="email" id="login-usuario" value="soporte@gmail.com">
+
+                <label for="login-contrasena">CONTRASEÑA</label>
+                <input type="password" id="login-contrasena" value="************">
+
+                <a href="#" class="olvido-contrasena">¿Olvidaste tu contraseña?</a>
+                
+                <button type="submit" class="btn-enviar">
+                    <span>INICIAR SESIÓN</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+            
+            <div class="inicio-social">
+                <p>o ingresa con</p>
+                <div class="iconos-sociales">
+                    <a href="https://www.google.com/?hl=es&zx=1759287883613&no_sw_cr=1" class="icono-social" aria-label="Ingresar con Google"><i class="fab fa-google"></i></a>
+                    <a href="https://www.facebook.com/?locale=es_LA" class="icono-social" aria-label="Ingresar con Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-cuenta seccion-registro">
+        <div class="formulario-contenedor">
+            <img src="images/picaflorletras.png" alt="Picaflor Logo" class="formulario-logo">
+            
+            <form>
+                <label for="register-usuario">USUARIO</label>
+                <input type="email" id="register-usuario" value="soporte@gmail.com" class="input-gris">
+
+                <label for="register-nombre">NOMBRE</label>
+                <input type="text" id="register-nombre" value="soporte@gmail.com" class="input-gris">
+
+                <label for="register-contrasena">CONTRASEÑA</label>
+                <input type="password" id="register-contrasena" value="************" class="input-gris">
+                
+                <button type="submit" class="btn-enviar">
+                    <span>REGISTRARSE</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="seccion-mapa">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50453.71444039828!2d-122.453307611956!3d37.75232637996303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sco!4v1698123456789!5m2!1sen!2sco" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+</main>
+
+    <footer>
+        <div class="contenedor pie-pagina-contenedor">
+            <div class="pie-pagina-columna sobre-nosotros">
+                <img src="images/picaflorletras.png" alt="Picaflor Logo" class="pie-pagina-logo">
+                <p>Más de 20 años compartiendo la dulzura de nuestra piña en almíbar. Producto artesanal, calidad familiar, sabor inolvidable.</p>
+                <div class="pie-pagina-enlaces-inferiores">
+                    <a href="productos.html">Precios</a>
+                    <a href="sobrenosotros.html">Sobre Nosotros</a>
+                    <a href="">Contacto</a>
+                </div>
+            </div>
+            <div class="pie-pagina-columna enlaces">
+                <h4>Información</h4>
+                <ul>
+                    <li><a href="pide-en-linea.html">Pide en línea</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Dónde Encontrarnos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="iniciarsesion.html">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+            <div class="pie-pagina-columna enlaces">
+                <h4>Horario laboral</h4>
+                <ul>
+                    <li>Lunes - Viernes</li>
+                    <li>08:00-22:00</li>
+                    <li class="espacio">Sábado</li>
+                    <li>8:00-22:00</li>
+                    <li class="espacio">Domingo Cerrado</li>
+                </ul>
+            </div>
+            <div class="pie-pagina-columna enlaces">
+                <h4>Soporte</h4>
+                <ul>
+                    <li><a href="sobrenosotros.html">Ayuda</a></li>
+                    <li><a href="sobrenosotros.html">Dirección</a></li>
+                    <li><a href="sobrenosotros.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
